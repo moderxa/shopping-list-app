@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Список покупок</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <h1>Список покупок</h1>
+
+  <form id="add-form">
+    <input type="text" id="item-name" placeholder="Название товара" required />
+    <input type="number" id="item-price" placeholder="Цена (руб.)" min="1" required />
+    <input type="number" id="item-qty" placeholder="Кол-во" min="1" value="1" required />
+    <button type="submit">Добавить</button>
+  </form>
+
+  <p id="status">Инициализация...</p>
+
+  <ul id="shopping-list"></ul>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "product": {
+        "id": 101,
+        "name": "Яблоки",
+        "price": 120
+      },
+      "quantity": 4
+    },
+    {
+      "product": {
+        "id": 1794819981616,
+        "name": "Бананы",
+        "price": 150
+      },
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1794820099943,
+        "name": "Апельсины",
+        "price": 140
+      },
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}
